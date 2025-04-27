@@ -1,10 +1,10 @@
 spring.application.name=Discount By Category
 
 # PostgreSQL Configuration
-spring.datasource.url=jdbc:postgresql://pg-16549e0b-aritra056-8ef2.l.aivencloud.com:11285/defaultdb?sslmode=require
-spring.datasource.username=avnadmin
-spring.datasource.password=AVNS_Bf-RPWD0XK6PEL5fYEW
+spring.datasource.url=jdbc:postgresql://your-host:your-port/your-database?sslmode=require
+spring.datasource.username=your-username
+spring.datasource.password=your-password
 spring.datasource.driver-class-name=org.postgresql.Driver
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-spring.jpa.show-sql=true
+spring.jpa.show-sql=true 
